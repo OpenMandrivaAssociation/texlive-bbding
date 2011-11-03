@@ -1,3 +1,9 @@
+# revision 17186
+# category Package
+# catalog-ctan /fonts/bbding
+# catalog-date 2010-02-15 12:02:42 +0100
+# catalog-license lppl
+# catalog-version 1.01
 Name:		texlive-bbding
 Version:	1.01
 Release:	1
@@ -49,6 +55,7 @@ the fonts is available in the niceframe fonts bundle.
 #- source
 %doc %{_texmfdistdir}/source/latex/bbding/bbding.dtx
 %doc %{_texmfdistdir}/source/latex/bbding/bbding.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -59,3 +66,5 @@ the fonts is available in the niceframe fonts bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
