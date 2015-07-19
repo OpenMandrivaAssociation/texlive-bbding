@@ -6,7 +6,7 @@
 # catalog-version 1.01
 Name:		texlive-bbding
 Version:	1.01
-Release:	9
+Release:	10
 Summary:	A symbol (dingbat) font and LaTeX macros for its use
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/bbding
