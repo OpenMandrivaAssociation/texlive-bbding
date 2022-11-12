@@ -5,9 +5,9 @@ Summary:	A symbol (dingbat) font and LaTeX macros for its use
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/bbding
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbding.r17186.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbding.doc.r17186.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbding.source.r17186.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbding.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbding.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbding.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
