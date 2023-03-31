@@ -1,6 +1,6 @@
 Name:		texlive-bbding
 Version:	17186
-Release:	1
+Release:	2
 Summary:	A symbol (dingbat) font and LaTeX macros for its use
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/bbding
