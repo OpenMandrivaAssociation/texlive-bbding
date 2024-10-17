@@ -3,7 +3,7 @@ Version:	17186
 Release:	2
 Summary:	A symbol (dingbat) font and LaTeX macros for its use
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/bbding
+URL:		https://www.ctan.org/tex-archive/fonts/bbding
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbding.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bbding.doc.r%{version}.tar.xz
